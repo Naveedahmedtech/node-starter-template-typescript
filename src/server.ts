@@ -1,15 +1,10 @@
-import dotenv from "dotenv";
-dotenv.config();
+// project files
+import { app, dotEvn } from "./config";
+import envConfig from "./config/env.config";
 
-import express, { Request, Response } from "express";
+const config = envConfig;
 
-const app = express();
-
-const PORT = process.env.PORT || 3000;
-
-app.get("/", (req: Request, res: Response) => {
-  res.send("hello world!");
-});
+const PORT = config.get("PORT") || 3000;
 
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}`);

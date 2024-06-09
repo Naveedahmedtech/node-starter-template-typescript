@@ -2,6 +2,7 @@
     "name": "starter-template",
     "version": "1.0.0",
     "description": "A standardized starter template kit for node js application",
+    "types": "module",
     "main": "dist/server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
