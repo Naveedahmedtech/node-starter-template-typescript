@@ -1,6 +1,19 @@
-import app, { Request, Response } from "./config/express.config";
+import {
+  NextFunction,
+  Request,
+  Response,
+  router,
+} from "./config/express.config";
 
+const appRouter = router;
 
-app.get("/", (req: Request, res: Response) => {
-  res.send("hello world!");
+appRouter.get("/", async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    // const name = "world"; 
+    res.send(`hello ${name}`);
+  } catch (error) {
+    next(error);
+  }
 });
+
+export default appRouter;
