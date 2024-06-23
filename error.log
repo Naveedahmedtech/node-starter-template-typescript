@@ -1,1 +1,21 @@
 {"level":"error","message":"name is not defined"}
+{"level":"error","message":"name is not defined"}
+{"level":"error","message":"name is not defined"}
+{"level":"error","message":"name is not defined"}
+{"level":"error","message":"Resource not found"}
+{"level":"error","message":"Resource not found"}
+{"level":"error","message":"Resource not found"}
+{"level":"error","message":"Resource not found"}
+{"level":"error","message":"Resource not found --- PATH  /home ---"}
+{"level":"error","message":"Resource not found --- PATH  /home ---"}
+{"level":"error","message":"Resource not found --- PATH  / ---"}
+{"level":"error","message":"Resource not found --- PATH  / ---"}
+{"level":"error","message":"name is not defined"}
+{"level":"error","message":"name is not defined"}
+{"level":"error","message":"Resource not found --- PATH  /home ---"}
+{"level":"error","message":"name is not defined"}
+{"level":"error","message":"Resource not found --- PATH  /home ---"}
+{"level":"error","message":"name is not defined"}
+{"level":"error","message":"[2024-06-23T09:54:52.371Z] ReferenceError: name is not defined\n    at N:\\3 Month 2024\\Backend\\Express\\starter-template\\src\\app.ts:14:23\n    at Layer.handle [as handle_request] (N:\\3 Month 2024\\Backend\\Express\\starter-template\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (N:\\3 Month 2024\\Backend\\Express\\starter-template\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (N:\\3 Month 2024\\Backend\\Express\\starter-template\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (N:\\3 Month 2024\\Backend\\Express\\starter-template\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at N:\\3 Month 2024\\Backend\\Express\\starter-template\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (N:\\3 Month 2024\\Backend\\Express\\starter-template\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (N:\\3 Month 2024\\Backend\\Express\\starter-template\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (N:\\3 Month 2024\\Backend\\Express\\starter-template\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (N:\\3 Month 2024\\Backend\\Express\\starter-template\\node_modules\\express\\lib\\router\\index.js:47:12)"}
+{"level":"error","message":"[2024-06-23T10:00:19.820Z] ReferenceError: name is not defined\n    at N:\\3 Month 2024\\Backend\\Express\\starter-template\\src\\app.ts:14:23\n    at Layer.handle [as handle_request] (N:\\3 Month 2024\\Backend\\Express\\starter-template\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (N:\\3 Month 2024\\Backend\\Express\\starter-template\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (N:\\3 Month 2024\\Backend\\Express\\starter-template\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (N:\\3 Month 2024\\Backend\\Express\\starter-template\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at N:\\3 Month 2024\\Backend\\Express\\starter-template\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (N:\\3 Month 2024\\Backend\\Express\\starter-template\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (N:\\3 Month 2024\\Backend\\Express\\starter-template\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (N:\\3 Month 2024\\Backend\\Express\\starter-template\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (N:\\3 Month 2024\\Backend\\Express\\starter-template\\node_modules\\express\\lib\\router\\index.js:47:12)"}
+{"level":"error","message":"Resource not found --- PATH  /ks ---"}

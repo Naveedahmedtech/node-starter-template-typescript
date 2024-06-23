@@ -32,7 +32,7 @@ class EnvConfig {
     return EnvConfig.instance;
   }
 
-  public get(key: string): string | undefined {
+  public get(key: string): string | number | undefined {
     return process.env[key];
   }
 }

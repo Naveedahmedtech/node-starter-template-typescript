@@ -4,6 +4,7 @@ import {
   Response,
   router,
 } from "./config/express.config";
+import { globalRouteHandler } from "./middlewares/error-handling";
 
 const appRouter = router;
 
@@ -15,5 +16,7 @@ appRouter.get("/", async (req: Request, res: Response, next: NextFunction) => {
     next(error);
   }
 });
+
+appRouter.use(globalRouteHandler);
 
 export default appRouter;
